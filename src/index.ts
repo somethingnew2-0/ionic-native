@@ -54,6 +54,7 @@ import {SocialSharing} from './plugins/socialsharing';
 import {SpinnerDialog} from './plugins/spinnerdialog';
 import {Splashscreen} from './plugins/splashscreen';
 import {SQLite} from './plugins/sqlite';
+import {Square} from './plugins/square';
 import {StatusBar} from './plugins/statusbar';
 import {Toast} from './plugins/toast';
 import {TouchID} from './plugins/touchid';
@@ -110,6 +111,7 @@ export {
   SpinnerDialog,
   Splashscreen,
   SQLite,
+  Square,
   StatusBar,
   Toast,
   TouchID,
@@ -170,6 +172,7 @@ window['IonicNative'] = {
   SpinnerDialog: SpinnerDialog,
   Splashscreen: Splashscreen,
   SQLite: SQLite,
+  Square: Square,
   StatusBar: StatusBar,
   Toast: Toast,
   TouchID: TouchID,
